@@ -1,0 +1,19 @@
+{
+  "name": "grpc-node-testing",
+  "version": "1.0.0",
+  "description": "testing-grpc",
+  "scripts": {
+    "start": "node ./start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consul": "^0.29.0",
+    "cookie-parser": "^1.4.3",
+    "grpc": "1.2.4",
+    "morgan": "^1.8.2",
+    "protobufjs": "5.0.2"
+  }
+}

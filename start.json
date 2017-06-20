@@ -1,0 +1,9 @@
+{
+    "apps" : [{
+        "name"        : "grpc-test",
+        "script"      : "start",
+        "args"        : "9098 192.168.0.59 8500",
+        "out_file"    : "./log/copytradashboard_out.log",
+        "err_file"    : "./log/copytradashboard_err.log"
+    }]
+}
