@@ -1,6 +1,6 @@
-####can be used for testing all grpc method in consul
+#### can be used for testing all grpc method in consul
 
-#####testaddress:   http://ip:port/[copytrade/followme]/[servicename]/[servicefunction]
+#### testaddress:   http://ip:port/[copytrade/followme]/[servicename]/[method]
 
 >curl -X POST \
   http://localhost:8098/copytrade/monitor/getSymbolList \
@@ -11,6 +11,7 @@
     }
 }'
 
+#####
 
 >curl -X POST \
   http://localhost:8098/followme/account/login \
