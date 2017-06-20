@@ -1,8 +1,8 @@
-used for testing grpc
+####can be used for testing all grpc method in consul
 
-testaddress:   http://ip:port/[copytrade/followme]/[servicename]/[servicefunction]
+#####testaddress:   http://ip:port/[copytrade/followme]/[servicename]/[servicefunction]
 
-curl -X POST \
+>curl -X POST \
   http://localhost:8098/copytrade/monitor/getSymbolList \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
@@ -12,7 +12,7 @@ curl -X POST \
 }'
 
 
-curl -X POST \
+>curl -X POST \
   http://localhost:8098/followme/account/login \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
