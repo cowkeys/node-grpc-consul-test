@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
 npm-debug.log
-proto/fmgit.chinacloudapp.cn/CopyTradingGo/proto/*
-proto/fmgit.chinacloudapp.cn/Followme/proto/*
+proto/*
 log/*.log

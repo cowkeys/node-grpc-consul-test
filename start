@@ -7,7 +7,8 @@
 var app = require('./app');
 var debug = require('debug')('copytrade-dashboard:server');
 var http = require('http');
-var {closeGrpc, setConsul,consulkv} = require('./testingGrpc');
+var {closeGrpc, setConsul} = require('./testingGrpc');
+var {consulkv} = require('./config');
 /**
  * Get port from environment and store in Express.
  */
